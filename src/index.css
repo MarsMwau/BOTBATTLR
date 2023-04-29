@@ -3,47 +3,49 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.bot-card {
-  flex-basis: calc(35% - 20px); /* 20% width minus 20px for margin */
-  margin-bottom: 20px;
+  gap: 0;
 }
 
 .bot-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  width: 100px;
-  height: 100px;
+  width: calc(21.33% - 10px);
+  margin-bottom: 20px;
   border: 1px solid gray;
   border-radius: 5px;
-  margin: 10px;
-  padding: 10px;
-  background-color: #e0d5d3;
+  background-color: #ffffff;
 }
 
 .bot-card img {
-  width: 150px;
-  height: 150px;
-  margin-bottom: 10px;
-  border: 1px solid gray;
-  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
 }
 
 .bot-card h3 {
   font-size: 1.2rem;
+  
 }
 
 .bot-card h7 {
-  font-size: 12px;
+  font-size: 11px;
+  font-weight: bold;
+  word-wrap: break-word;
+  word-break: break-all;
+  align-items: center;
 }
 
-.bot-card p {
-  margin: 1px 0;
+.bot-card .stats {
+  white-space: nowrap;
+}
+
+.bot-card p{
+  gap: 2px;
+  display: inline-block;
   font-size: 0.9rem;
   text-align: center;
+  
 }
 
 .bot-card button {
@@ -62,12 +64,12 @@
   justify-content: space-between;
 }
 
-.bot-card, .army-bot-card {
+.army-bot-card {
   flex-basis: calc(25% - 20px); /* 25% width minus 20px for margin */
   margin-bottom: 20px;
 }
 
-.bot-card, .army-bot-card {
+.army-bot-card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
