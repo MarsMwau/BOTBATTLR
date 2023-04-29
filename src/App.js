@@ -1,23 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import BotCollection from './BotCollection';
+import YourBotArmy from './YourBotArmy';
 
 function App() {
+  const [botData, setBotData] = useState([]);
+  const [selectedBots, setSelectedBots] = useState([]);
+
+  useEffect(() => {
+    fetch(" http://localhost:3000/bots")
+      .then(response => response.json())
+      .then(data => setBotData(data))
+      .catch(error => console.error(error));
+  }, []);
+
+  const enlistBot = (bot) => {
+    setSelectedBots(prevSelectedBots => {
+      if (!prevSelectedBots.includes(bot)) {
+        return [...prevSelectedBots, bot];
+      }
+      return prevSelectedBots;
+    });
+  };
+
+  const dischargeBot = (bot) => {
+    setSelectedBots(prevSelectedBots => prevSelectedBots.filter(selectedBot => selectedBot.id !== bot.id));
+  };
+
+  const deleteBot = (bot) => {
+    const updatedBotData = botData.filter(existingBot => existingBot.id !== bot.id);
+    setBotData(updatedBotData);
+    setSelectedBots(prevSelectedBots => prevSelectedBots.filter(selectedBot => selectedBot.id !== bot.id));
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Bots R Us</h1>
+      <BotCollection botData={botData} enlistBot={enlistBot} />
+      <YourBotArmy selectedBots={selectedBots} dischargeBot={dischargeBot} deleteBot={deleteBot} />
     </div>
   );
 }
