@@ -1,4 +1,9 @@
-
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  background-color: rgb(163, 206, 6);
+}
 
 /* BotCollection.css */
 .bot-collection-container {
@@ -13,11 +18,12 @@
   flex-direction: column;
   align-items: center;
   width: calc(15.33% - 9px);
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   border: 1px solid gray;
   border-radius: 5px;
   background-color: #ffffff;
   cursor: pointer;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3),
   }
   
   .bot-card img {
@@ -47,6 +53,8 @@
   display: inline-block;
   font-size: 0.9rem;
   text-align: center;
+  background-color: #ebebeb;
+  padding: auto;
   
   }
   
@@ -62,11 +70,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: calc(15.33% - 9px);
+  width: calc(12.33% - 9px);
   margin-bottom: 20px;
   border: 1px solid gray;
   border-radius: 5px;
   background-color: #ffffff;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  
   }
   
   .army-card img {
@@ -112,5 +123,17 @@
     }
     .bot-card:hover,
     .army-card:hover {
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      box-shadow: 5px 6px 20px rgba(0, 0, 0, 0.3);
     }
+
+    .sort-bar-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .sort-bar-container select {
+      margin-left: 10px;
+    }
+    
