@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Bots R Us</h1>
+      <h1>The Bot Plug</h1>
       <YourBotArmy selectedBots={selectedBots} dischargeBot={dischargeBot} deleteBot={deleteBot} />
       <BotCollection botData={botData} enlistBot={enlistBot} />
     </div>

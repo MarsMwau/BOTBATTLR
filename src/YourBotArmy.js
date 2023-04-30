@@ -13,7 +13,7 @@ function YourBotArmy({ selectedBots, dischargeBot, deleteBot }) {
           <div className='army-card' key={bot.id} onClick={() => handleBotClick(bot)}>
             <img src={bot.avatar_url} alt="Bot" />
             <h3>{bot.name}</h3>
-            <h7>{bot.catchphrase}</h7>
+            <h6>{bot.catchphrase}</h6>
             <div className="stats">
               <p><i className="fa fa-heartbeat" aria-hidden="true"></i>{bot.health}</p>
               <p><i className="fa fa-bolt" aria-hidden="true"></i>{bot.damage}</p>
