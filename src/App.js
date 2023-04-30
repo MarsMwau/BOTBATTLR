@@ -7,7 +7,7 @@ function App() {
   const [selectedBots, setSelectedBots] = useState([]);
 
   useEffect(() => {
-    fetch(" http://localhost:3000/bots")
+    fetch("http://localhost:3000/bots")
       .then(response => response.json())
       .then(data => setBotData(data))
       .catch(error => console.error(error));
@@ -35,10 +35,9 @@ function App() {
   return (
     <div className="App">
       <h1>Bots R Us</h1>
-      <BotCollection botData={botData} enlistBot={enlistBot} />
       <YourBotArmy selectedBots={selectedBots} dischargeBot={dischargeBot} deleteBot={deleteBot} />
+      <BotCollection botData={botData} enlistBot={enlistBot} />
     </div>
   );
 }
-
 export default App;

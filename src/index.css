@@ -15,6 +15,7 @@
   border: 1px solid gray;
   border-radius: 5px;
   background-color: #ffffff;
+  cursor: pointer;
 }
 
 .bot-card img {
@@ -62,45 +63,42 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 0;
 }
 
-.army-bot-card {
-  flex-basis: calc(25% - 20px); /* 25% width minus 20px for margin */
-  margin-bottom: 20px;
-}
-
-.army-bot-card {
+.army-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  width: 250px;
-  height: 350px;
+  width: calc(21.33% - 10px);
+  margin-bottom: 20px;
   border: 1px solid gray;
   border-radius: 5px;
-  margin: 10px;
-  padding: 10px;
+  background-color: #ffffff;
 }
 
-.army-bot-card img {
-  width: 200px;
-  height: 200px;
+.army-card img {
+  width: 100px;
+  height: 100px;
   margin-bottom: 10px;
-  border-radius: 50%;
 }
 
-.army-bot-card h3 {
-  margin: 0;
+.army-card h3 {
   font-size: 1.2rem;
 }
 
-.army-bot-card p {
-  margin: 5px 0;
+.army-card .stats {
+  white-space: nowrap;
+}
+
+.army-card p {
+  gap: 2px;
+  display: inline-block;
   font-size: 0.9rem;
   text-align: center;
 }
 
-.army-bot-card button {
+.army-card button {
   padding: 5px 10px;
   border-radius: 5px;
   background-color: #FF5733;

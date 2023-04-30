@@ -5,17 +5,19 @@ function YourBotArmy({ selectedBots, dischargeBot, deleteBot }) {
     <div>
       <h2>Your Bot Army</h2>
       <div className="bot-army-container">
-      {selectedBots.map(bot => (
-        <div className='army-card' key={bot.id}>
-          <img src={bot.avatar_url} alt="Bot" />
-          <h3>{bot.name}</h3>
-          <p><i className="fa fa-heartbeat" aria-hidden="true"></i>{bot.health}</p>
-          <p>Damage: {bot.damage}</p>
-          <p>Armor: {bot.armor}</p>
-          <button onClick={() => dischargeBot(bot)}>Discharge</button>
-          <button onClick={() => deleteBot(bot)}>Delete</button>
-        </div>
-      ))}
+        {selectedBots.map(bot => (
+          <div className='army-card' key={bot.id}>
+            <img src={bot.avatar_url} alt="Bot" />
+            <h3>{bot.name}</h3>
+            <div className="stats">
+              <p><i className="fa fa-heartbeat" aria-hidden="true"></i>{bot.health}</p>
+              <p><i className="fa fa-bolt" aria-hidden="true"></i>{bot.damage}</p>
+              <p><i className="fa fa-shield" aria-hidden="true"></i>{bot.armor}</p>
+            </div>
+            <button onClick={() => dischargeBot(bot)}>Discharge Bot</button>
+            <button onClick={() => deleteBot(bot)}>Delete Bot</button>
+          </div>
+        ))}
       </div>
     </div>
   );
