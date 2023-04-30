@@ -5,6 +5,9 @@
 The Bot Plug is a simple React application that lets you build and manage your own army of bots. The app allows you to view a list of available bots, filter them by class, sort them by health, damage, or armor, and enlist them to your army. You can also remove enlisted bots and view your current bot army.
 
 ## Screenshots 
+![Screenshot from 2023-04-30 18-40-06](https://user-images.githubusercontent.com/115712038/235362453-e1154d01-2a7f-47e6-98f8-5ccf3e33b718.png)
+
+![Screenshot from 2023-04-30 18-40-06](https://user-images.githubusercontent.com/115712038/235362480-222c2304-7341-41cf-95f9-e7406f2c9d58.png)
 
 
 ## Installation
