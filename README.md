@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# THE BOT PLUG
+## MARTHA MWAU APRIL 2023
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description
+The Bot Plug is a simple React application that lets you build and manage your own army of bots. The app allows you to view a list of available bots, filter them by class, sort them by health, damage, or armor, and enlist them to your army. You can also remove enlisted bots and view your current bot army.
 
-## Available Scripts
+## Screenshots 
 
-In the project directory, you can run:
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. To install Bot Army, first clone this repository to your local machine:
+2. Then, navigate to the project directory and install the necessary dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
+- When you open the app, you'll see a list of available bots that you can enlist to your army. To enlist a bot, simply click on its card. Enlisted bots will be added to your army. To remove an enlisted bot, click on its card in the "Your Bot Army" view. You can also discharge a bot from their service forever, by clicking the red button marked "x", which would delete the bot both from the backend and from the `YourBotArmy` on the frontend
+- You can also filter the list of available bots by class by using the dropdown menu at the top of the page. To sort the list by health, damage, or armor, use the corresponding buttons in the "Sort by" section.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Bot Army includes the following features:
 
-### `npm run build`
+- Browse a collection of bots
+- Filter bots by class
+- Sort bots by health, damage, or armor
+- Enlist bots in your own bot army
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributions to Bot Army are welcome! If you have suggestions for new features, find a bug, or want to contribute code, please feel free to open an issue or submit a pull request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Bot Army is licensed under the [MIT license].
