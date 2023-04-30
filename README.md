@@ -12,7 +12,7 @@ The Bot Plug is a simple React application that lets you build and manage your o
 
 ## Installation
 
-1. To install Bot Army, first clone this repository to your local machine:
+1. To install The Bot Plug , first clone this repository to your local machine:
 2. Then, navigate to the project directory and install the necessary dependencies:
 
 ## Usage
@@ -21,7 +21,7 @@ The Bot Plug is a simple React application that lets you build and manage your o
 
 ## Features
 
-Bot Army includes the following features:
+The Bot Plug includes the following features:
 
 - Browse a collection of bots
 - Filter bots by class
@@ -33,8 +33,8 @@ The Bots Plug was created by Martha Mwau. The app uses data from a JSON file.
 
 ## Contributing
 
-Contributions to Bot Army are welcome! If you have suggestions for new features, find a bug, or want to contribute code, please feel free to open an issue or submit a pull request.
+Contributions to The Bot Plug are welcome! If you have suggestions for new features, find a bug, or want to contribute code, please feel free to open an issue or submit a pull request.
 
 ## License
 
-Bot Army is licensed under the [MIT license].
+The Bot Plug is licensed under the [MIT license].
