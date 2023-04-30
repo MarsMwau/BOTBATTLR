@@ -7,7 +7,7 @@ The Bot Plug is a simple React application that lets you build and manage your o
 ## Screenshots 
 ![Screenshot from 2023-04-30 18-40-06](https://user-images.githubusercontent.com/115712038/235362453-e1154d01-2a7f-47e6-98f8-5ccf3e33b718.png)
 
-![Screenshot from 2023-04-30 18-40-06](https://user-images.githubusercontent.com/115712038/235362480-222c2304-7341-41cf-95f9-e7406f2c9d58.png)
+![Screenshot from 2023-04-30 18-41-05](https://user-images.githubusercontent.com/115712038/235362835-63f3f0d9-2b44-42fc-b9df-e9dd195df655.png)
 
 
 ## Installation
@@ -27,6 +27,9 @@ Bot Army includes the following features:
 - Filter bots by class
 - Sort bots by health, damage, or armor
 - Enlist bots in your own bot army
+
+## Credits
+The Bots Plug was created by Martha Mwau. The app uses data from a JSON file.
 
 ## Contributing
 
