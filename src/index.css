@@ -123,6 +123,7 @@ h1, h2{
     color: rgb(255, 249, 249);
     cursor: pointer;
     }
+
     .bot-card:hover,
     .army-card:hover {
       box-shadow: 5px 6px 20px rgba(0, 0, 0, 0.3);
@@ -133,6 +134,12 @@ h1, h2{
       justify-content: space-between;
       align-items: center;
       margin-bottom: 20px;
+    }
+    .sort-bar-container h3 {
+      font-size: 1.2rem;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+      color: #000;
     }
     
     .sort-bar-container select {

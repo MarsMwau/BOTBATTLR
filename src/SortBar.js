@@ -12,7 +12,7 @@ const SortBar = ({ filter, setFilter, setSortBy }) => {
   return (
     <div className="sort-bar-container">
       <div>
-        Filter by class:
+        <h3>Filter by class:</h3>
         <select value={filter} onChange={handleFilterChange}>
           <option value="">All</option>
           <option value="Support">Support</option>
@@ -24,7 +24,7 @@ const SortBar = ({ filter, setFilter, setSortBy }) => {
         </select>
       </div>
       <div>
-        Sort by:
+        <h3>Sort by:</h3>
         <select value={setSortBy} onChange={handleSortByChange}>
           <option value="">None</option>
           <option value="health">Health</option>
