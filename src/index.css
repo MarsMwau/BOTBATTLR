@@ -1,108 +1,116 @@
+
+
 /* BotCollection.css */
 .bot-collection-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 0;
-}
-
-.bot-card {
+  }
+  
+  .bot-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: calc(21.33% - 10px);
+  width: calc(15.33% - 9px);
   margin-bottom: 20px;
   border: 1px solid gray;
   border-radius: 5px;
   background-color: #ffffff;
   cursor: pointer;
-}
-
-.bot-card img {
+  }
+  
+  .bot-card img {
   width: 100px;
   height: 100px;
-  margin-bottom: 5px;
-}
-
-.bot-card h3 {
-  font-size: 1.2rem;
+  }
   
-}
-
-.bot-card h7 {
+  .bot-card h3 {
+  font-size: 1.2rem;
+  margin-top: 0;
+  }
+  
+  .bot-card h7 {
   font-size: 11px;
   font-weight: bold;
   word-wrap: break-word;
   word-break: break-all;
   align-items: center;
-}
-
-.bot-card .stats {
+  }
+  
+  .bot-card .stats {
   white-space: nowrap;
-}
-
-.bot-card p{
+  }
+  
+  .bot-card p{
   gap: 2px;
   display: inline-block;
   font-size: 0.9rem;
   text-align: center;
   
-}
-
-.bot-card button {
-  padding: 5px 10px;
-  border-radius: 5px;
-  background-color: #4CAF50;
-  color: white;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-/* YourBotArmy.css */
-.bot-army-container {
+  }
+  
+  /* YourBotArmy.css */
+  .bot-army-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 0;
-}
-
-.army-card {
+  }
+  
+  .army-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: calc(21.33% - 10px);
+  width: calc(15.33% - 9px);
   margin-bottom: 20px;
   border: 1px solid gray;
   border-radius: 5px;
   background-color: #ffffff;
-}
-
-.army-card img {
+  }
+  
+  .army-card img {
   width: 100px;
   height: 100px;
-  margin-bottom: 10px;
-}
-
-.army-card h3 {
+  }
+  
+  .army-card h3 {
   font-size: 1.2rem;
-}
+  }
 
-.army-card .stats {
+  .army-card h7 {
+    font-size: 11px;
+    font-weight: bold;
+    word-wrap: break-word;
+    word-break: break-all;
+    align-items: center;
+    }
+  
+  .army-card .stats {
   white-space: nowrap;
-}
-
-.army-card p {
+  }
+  
+  .army-card p {
   gap: 2px;
   display: inline-block;
   font-size: 0.9rem;
   text-align: center;
-}
-
-.army-card button {
-  padding: 5px 10px;
+  }
+  
+  .army-card button {
+  padding: 5px 40px;
   border-radius: 5px;
-  background-color: #FF5733;
-  color: white;
+  background-color: #a70d02;
+  color: rgb(255, 255, 255);
   font-size: 1rem;
-  cursor: pointer;
-}
+  }
+  .army-card button:hover {
+   
+    background-color: #cc0404;
+    color: rgb(255, 249, 249);
+    cursor: pointer;
+    }
+    .bot-card:hover,
+    .army-card:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
